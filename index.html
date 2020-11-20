@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--    <link rel="stylesheet" href="./dist/style.css">-->
+    <title>Test_Game_Yakymova</title>
+  </head>
+  <body>
+
+    <div class="root">
+      <header class="header container col-12">
+        <h1 class="h1">entertain your cat</h1>
+        <div class="header__info col-12"></div>
+      </header>
+      <section class="main">
+        <main class="main__wrap col-8">
+          <section class="main__score" id="manage-board">
+            <button type="button" class="btn btn-outline-secondary btn-lg" id="game-starter">start</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg" id="game-new">new game</button>
+            <div class="counter" id="points"></div>
+            <div class="counter" id="countdown"></div>
+          </section>
+          <section id="field" class="main__field"></section>
+        </main>
+
+        <aside class="win col-4" >
+          <h3 class="h3">score Board</h3>
+            <div class="win__board">
+              <table class="table table-bordered" id="winners">
+                <thead class="thead-light">
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Score</th>
+                </tr>
+                </thead>
+                <tbody id="results">
+                </tbody>
+              </table>
+            </div>
+        </aside>
+      </section>
+
+      <div class="modal" id="modal" style="{display: none}">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content" id="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title h4">Save you result</h4>
+            </div>
+              <form id="modal-form">
+                 <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="modal-score" class="col-md-3 col-form-label col-form-label-md">Your score:</label>
+                        <div class="col-md-9">
+                           <input class="form-control form-control-md" id="modal-score" type="text" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="formInput" class="col-md-3 col-form-label col-form-label-md">Name</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control form-control-md" id="formInput" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-lg btn-outline-secondary" id="save-results">save</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="./dist/app.js"></script>
+  </body>
+</html>

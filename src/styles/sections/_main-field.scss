@@ -1,0 +1,67 @@
+$main-color-grey: #6c757d;
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Roboto', sans-serif;
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__score {
+    padding: 30px 20px 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  &__field {
+    box-shadow: 2px 2px 6px #8a8ab9;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+  }
+  &__block {
+    position: absolute;
+    box-shadow: 2px 2px 6px #8a8ab9;
+  }
+}
+
+.counter {
+  width: 100px;
+  height: 40px;
+  font-size: 35px;
+  box-shadow: 2px 2px 6px #8a8ab9;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#points::before,
+#countdown::before {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 14px;
+}
+#points::before {
+  content: "Points";
+}
+#countdown::before {
+  content: "Time left";
+}
+
+//.item {
+//}
+//
+//.tab-cell {
+//  box-shadow: 1px 1px 5px #8a8ab9;
+//}
+//.active-cell {
+//  border: outset 5px;
+//}

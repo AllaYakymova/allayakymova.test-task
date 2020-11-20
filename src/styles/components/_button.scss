@@ -1,0 +1,22 @@
+$main-color-grey: #6c757d;
+
+.btn {
+  color: $main-color-grey;
+  border: 3px solid $main-color-grey;
+  text-transform: uppercase;
+  border-radius: 2.5rem;
+  width: 130px;
+
+  &-lg {
+    width: 150px;
+    background-color: #fff;
+  }
+  &-outline-secondary {
+    border: 3px solid $main-color-grey;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 2px 2px 6px #8a8ab9;
+  }
+}
