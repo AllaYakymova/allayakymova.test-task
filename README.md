@@ -1,12 +1,9 @@
 <h1>Проект: Test game "Entertain your cat" </h1>
 <h5>Автор: Якимова Алла</h5>
 
-**Цель проекта:** Получить практические навыки верстки адаптивного сайта под разрешения 320 пикселей, 768 пикселей, и 1200 пикселей. Закрепить теоритический материал. Научиться создавать сборки проекта с помощью Gulp. Получить практические знания в использовании GitLaba и программы GitKraken.
+Ссылка на [задание](https://docs.google.com/document/d/146E1Rna-cfooGKfPCfWwnQ4ZK_Y4UKG4LFcwixMEfSI/edit)
 
-
-Ссылка на задание [проекта](https://docs.google.com/document/d/146E1Rna-cfooGKfPCfWwnQ4ZK_Y4UKG4LFcwixMEfSI/edit)
-
-Ссылка на исходный код игры [сайт]( )
+Ссылка на исходный код игры [сайт](https://github.com/AllaYakymova/allayakymova.test-task.git)
 
 
 <h4>Описание правил игры</h4>
@@ -20,7 +17,7 @@
 
 <h5>Список использованных технологий </h5>
  <ul>
-    <li>Сборка проекта - Webpack (dev mode)</li>
+    <li>Сборка проекта - Webpack</li>
     <li>В процессе рализации использован нативный js, ООП, классы, ES6 синтаксис</li>
     <li>В процессе стилизации использованы препроцессор sass и Bootstrap</li>
     <li>Для реализации таймера использован tasktimer (https://onury.io/tasktimer/)</li>
