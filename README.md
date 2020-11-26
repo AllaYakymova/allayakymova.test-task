@@ -1,5 +1,6 @@
 <h1>Проект: Test game "Entertain your cat" </h1>
 <h5>Автор: Якимова Алла</h5>
+<p>telegram @AllochkaYa</p>
 
 Ссылка на [задание](https://docs.google.com/document/d/146E1Rna-cfooGKfPCfWwnQ4ZK_Y4UKG4LFcwixMEfSI/edit)
 
