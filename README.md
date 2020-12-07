@@ -7,7 +7,7 @@
 Ссылка на исходный код игры [сайт](https://github.com/AllaYakymova/allayakymova.test-task.git)
 
 Ссылка на готовую игру 
-(https://allayakymova.github.io/Alla-Yakymova/)
+(https://allayakymova.github.io/allayakymova.test-task/)
 
 
 <h4>Описание правил игры</h4>
