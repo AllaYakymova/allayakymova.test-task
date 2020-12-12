@@ -2,10 +2,6 @@
 <h5>Автор: Якимова Алла</h5>
 <p>telegram @AllochkaYa</p>
 
-Ссылка на [задание](https://docs.google.com/document/d/146E1Rna-cfooGKfPCfWwnQ4ZK_Y4UKG4LFcwixMEfSI/edit)
-
-Ссылка на исходный код игры [сайт](https://github.com/AllaYakymova/allayakymova.test-task.git)
-
 Ссылка на готовую игру 
 (https://allayakymova.github.io/allayakymova.test-task/)
 
